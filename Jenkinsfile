@@ -1,6 +1,5 @@
 @Library('jenkins-shared-library') _
-
-pipeline([
+sharedPipeline([
     SLACK_CHANNEL: '#ci-cd',
     DOCKERHUB_REPO: 'blackrocktech/api-dev-k8s',
     IMAGE_TAG: 'v1.0.',
